@@ -6,3 +6,4 @@ require(quantmod)
 getSymbols('^SPX')
 getSymbols('SPY')
 
+save(SPX,SPY, file='./demo_data.rda')
